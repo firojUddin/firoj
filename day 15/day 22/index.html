@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th>First Number:</th>
+                <td><input type="text" id="firstValue"></td>
+            </tr>
+            <tr>
+                <th>Last Number:</th>
+                <td><input type="text" id="lastValue"></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td id="btn">
+                    <input type="button" value="+" id="addition" onclick="myCal('+')">
+                    <input type="button" value="-" id="subtraction" onclick="myCal('-')">
+                    <input type="button" value="*" id="multiple" onclick="myCal('*')">
+                    <input type="button" value="/" id="division" onclick="myCal('/')">
+                    <input type="button" value="%" id="modular" onclick="myCal('%')">
+                </td>
+            </tr>
+
+            <tr>
+                <th>Result</th>
+                <td><input type="text" id="result"></td>
+            </tr>
+
+        </table>
+    </div>
+<script src="js/main.js"></script>
+
+</body>
+</html>

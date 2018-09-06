@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+[class*="col-"]{
+    float: left;
+}
+.row:after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+.container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+nav{
+    height: 80px;
+    background-color: #dddddd;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+.logo{
+    margin: 15px 0;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+
+}
+.menu ul li{
+    display: inline;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 30px 20px;
+    text-align: center;
+    line-height: 80px;
+}
+.menu ul li a:hover{
+    background-color: gray;
+}
+.slider-section{
+    height: 500px;
+    background-image: url("../image/pic(3).jpg");
+    position: relative;
+}
+.slider-content{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 250px;
+    padding: 20px;
+    color: #ffffdd;
+
+}
+.slider-content hr{
+    margin: 10px 0;
+}
+.slider-content a{
+    margin-top: 5px;
+    float: right;
+    color: white;
+    text-decoration: none;
+
+}
+.feature{
+    background-color: #f5f5f5;
+}
+.feature-border{
+    border: 1px solid #c0c0c0;
+    box-sizing: border-box;
+    padding: 15px;
+    height: 180px;
+    width: 32.1%;
+    margin: 50px 0;
+    background-color: #e3e3e3;
+}
+.respon{
+    margin: 50px 1.8%;
+}
+.cir{
+    height: 80px;
+    width: 80px;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+.feature i{
+    margin: 12px 0 0 10px;
+}
+.content{
+    background-color: #f5f5f5;
+}
+.recent-pro{
+    height: 40px;
+}
+.content-width{
+    width: 32.1%;
+    height: 320px;
+    position: relative;
+    background-color: #ddd;
+    border-bottom: 3px solid green;
+    margin-bottom: 15px;
+}
+
+.con-img1{
+    background-image: url("../image/pic(1).jpg");
+    background-size: cover;
+}
+.con-img2{
+    background-image: url("../image/pic(2).jpg");
+    background-size: cover;
+}
+.con-img3{
+    background-image: url("../image/pic4(3).jpg");
+    background-size: cover;
+}
+.con-img4{
+    background-image: url("../image/pic(4).jpg");
+    background-size: cover;
+}
+.con-img5{
+    background-image: url("../image/pic(5).jpg");
+    background-size: cover;
+}
+.con-img6{
+    background-image: url("../image/pic(6).jpg");
+    background-size: cover;
+}
+.overlay{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.overlay:hover{
+    background-color: #cfb4b4;
+}
+.overlay h2{
+    float: left;
+    color: #dedede;
+    background-color: green;
+}
+.overlay .price{
+    float: right;
+    color: black;
+    background-color: white;
+}
+.property-name{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    padding: 15px;
+}
+.property-name h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.property-name > p{
+    margin: 10px 0;
+}
+.pd{
+    margin-top: 5px;
+    line-height: 10px;
+}
+
+
+.form{
+    background-color: #4db44d;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.form h1{
+    text-align: center;
+}
+.fom{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #4db44d;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 7.7px;
+
+}
+.button{
+    margin-top: 10px;
+    background-color: #e1abff;
+    color: #000000;
+}
+.button:hover{
+    background-color: #3215ff;
+    color: white;
+}
+.agent{
+    margin-top: 40px;
+    padding: 10px;
+}
+.agent h2{
+    margin-bottom: 5px;
+}
+.agent img{
+    height: 70px;
+    margin: 0px 10px 10px 0px;
+}
+.agent {}
+
+
+
+
+
+
+
+footer{
+    background-image: url("../image/pic(3).jpg");
+    height: 200px;
+}
+.footer{
+
+    position: absolute;
+    top: 80px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.footer h1{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+
+}

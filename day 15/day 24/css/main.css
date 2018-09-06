@@ -1,0 +1,27 @@
+nav button{
+    padding: 10px 83px;
+    background-color: #ff9295;
+    color: #0505ff;
+    font-size: 22px;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 2px 2px gray;
+}
+.inner-content{
+    border: 1px solid red;
+
+}
+#home{
+    /*display: block;*/
+}
+#about{
+    display: none;
+
+}
+#contact{
+    display: none;
+}
